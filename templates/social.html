@@ -1,0 +1,16 @@
+{% extends 'cv.html' %}
+
+{% block body %}
+
+<div class="jumbotron text-center">
+    <h1 class="w3-jumbo">Social Media</h1>
+    <hr style="width:50px;border:5px solid black" class="w3-round">
+    <p class="lead">
+        The information about all the means to connect.
+    </p>
+</div>
+{% for i in info %}
+    <dd><p>{{i}}</p></dd>
+{% endfor %}
+
+{% endblock %}

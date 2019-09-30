@@ -1,0 +1,30 @@
+{% extends 'cv.html' %}
+
+{% block body %}
+
+<div class="jumbotron text-center">
+    <h1 class="w3-jumbo">Personal Information</h1>
+    <hr style="width:50px;border:5px solid black" class="w3-round">
+    <p class="lead">
+    </p>
+</div>
+<dl class="dl-horizontal">
+    <dt><strong>Name:</strong></dt>
+        <dd>{{info["me"]["name"]}}</dd>
+    <dt><strong>Age:</strong></dt>
+        <dd>{{info["me"]["age"]}}</dd>
+    <dt><strong>Civil Satus:</strong></dt>
+        <dd>{{info["me"]["civilStatus"]}}</dd>
+    <dt><strong>E-Mail:</strong></dt>
+        <dd>{{info["me"]["email"]}}</dd>
+    <dt><strong>Address:</strong></dt>
+        <dd>{{info["me"]["address"]}}</dd>
+    <dt><strong>Nationality:</strong></dt>
+        <dd>{{info["me"]["nationality"]}}</dd>
+    <dt><strong>About me:</strong></dt>
+        {% for i in info['me']['about'] %}
+            <dd><p>{{i}}</p></dd>
+        {% endfor %}
+  </dl>
+
+{% endblock %}

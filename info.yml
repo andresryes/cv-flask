@@ -1,0 +1,49 @@
+me:
+    name: "Enrique Andres Bolaños Reyes"
+    age: 21
+    civilStatus: "Single"
+    email: "enriquebolanos@ufm.edu"
+    address: "7ma. Calle 5-55 col. Panorama San Critóbal, z.8 de Mixco, Guatemala"
+    nationality: "Guatemalan"
+    about: 
+        - "I am very people person. I also like every kind of animals."
+        - "I'm very interested in all sciences, specially in mathematics, astrophysics and computing."
+        - "I've got three pets. I adore the order."
+        #- "Soy una persona bastante amigable. Me gustan todos los animales."
+        #- "Estoy muy interesado en las ciencias, en especial matemática, astrofísica y computación."
+        #- "Tengo tres mascotas. Adoro el orden."
+
+academic: 
+    school:
+        name: "CETL Kinal"
+        academicLevel: "Highschool"
+        careerName: "Informática"
+        period: "2012-2017"
+
+    university:
+        name: "Universidad Francisco Marroqín"
+        academicLevel: "Engineering"
+        careerName: "Computer Science"
+        period: "2018-2021"
+
+experience:
+    dev:
+        name: "TitonSoft"
+        job: "Full Stack Junior Developer"
+        period: "1 year"
+        description: "I worked with API's, mobile and web apps."
+    agent:
+        name: "Nearsol"
+        job: "Customer Service Agent"
+        period: "3 years"
+        description: "In this job I answered calls."
+
+social:
+    - fb: "facebook.com"
+    - git: "github.com"
+    - tw: "twitter.com"
+    - rd: "reddit.com"
+    - li: "linkedin.com"
+    - ig: "instagram.com"
+
+#Carretera a El Salvador km 26.5 Colinas de Andalucía Casa 27
