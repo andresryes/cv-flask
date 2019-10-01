@@ -9,8 +9,51 @@
         The information about all the means to connect.
     </p>
 </div>
-{% for i in info %}
+
+<div>
+    <h1>
+        <i class="fa fa-reddit"></i>
+        <a href="{{info['rd']}}" target=”_blank”>  
+             Reddit
+        </a>
+    </h1>
+    <h1> 
+            <i class="fa fa-twitter"></i>   
+        <a href="{{info['tw']}}" target=”_blank”>  
+             Twitter
+        </a>
+    </h1>
+    <h1>    <i class="fa fa-github"></i>
+        <a href="{{info['git']}}" target=”_blank”>  
+             Github
+        </a>    
+    </h1>
+    <h1>     <img src="https://koalalorenzo2014.files.wordpress.com/2015/04/docker-icon-bw.png" height="25px" alt="">
+        <a href="{{info['dk']}}" target=”_blank”>   
+           Dockerhub
+        </a>
+    </h1>
+    <h1>   <i class="fa fa-linkedin"></i> 
+        <a href="{{info['li']}}" target=”_blank”>   
+             LinkedIn
+        </a>
+    </h1>
+    <h1>  <i class="fa fa-facebook"></i>
+        <a href="{{info['fb']}}" target=”_blank”>   
+            Facebook
+        </a>
+    </h1>
+    <h1>     <i class="fa fa-instagram"></i> 
+        <a href="{{info['ig']}}" target=”_blank”>   
+           Instagram
+        </a>
+    </h1>
+</div>
+
+<!--{% for i in info %}
     <dd><p>{{i}}</p></dd>
 {% endfor %}
+-->
+
 
 {% endblock %}
